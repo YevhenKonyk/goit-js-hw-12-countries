@@ -1,0 +1,56 @@
+.title {
+    font-family: 'DomineB', 'Arial', serif;
+    margin-bottom: 25px;;
+}
+
+.search-query {
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.countries-list {
+    padding-left: 25px;
+}
+
+.countries-list-item {}
+
+.countries-list-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.languages-list {
+    padding-left: 25px;
+}
+
+.languages-list-item {}
+
+.country {
+    outline: 1px solid red;
+    padding: 10px;
+}
+
+.country-title {
+    font-family: 'DomineB', 'Arial', serif;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.country-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.country-details-list {
+    list-style: none;
+}
+
+.country-details-list-item {}
+.country-details-list-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.country-flag {
+    display: block;
+}
